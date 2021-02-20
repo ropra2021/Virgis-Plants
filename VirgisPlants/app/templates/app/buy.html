@@ -1,0 +1,97 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'app/content/buy.css' %}" />
+
+<head>
+    <meta charset="utf-8" />
+    <title>How To Buy</title>
+</head>
+
+    <div class="jumbotron">
+        <div class="container-fluid">
+            <h2>{{title}}</h2>
+            <h3>{{message}}</h3>
+        </div>
+    </div>
+    
+    <div class="container body-content">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="container">
+                    <!--<h3>Etsy</h3>-->
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="container">
+                    <h3>Virgis Plants Online Store Comming Soon</h3>
+                    <p>
+                        Online Store is currently Being Built. 
+                        I am looking forward to selling you plants directly through my website.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="container">
+                    <!--<h3>Etsy</h3>-->
+                    <a href="https://www.etsy.com/shop/VirgiCrazyPlantLady"><i class="fa fa-etsy"></i></a>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="container">
+                    <h3>How To Buy on Etsy</h3>
+                    <p>
+                        My Etsy shopname is virgicrazyplantlady. 
+                    </p>
+                    <a role="button" class="btn btn-lg" href="https://www.etsy.com/shop/VirgiCrazyPlantLady"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Shop Etsy</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="container">
+                    <!--<h3>Etsy</h3>-->
+                    <a href="https://www.facebook.com/virginia.garcia.370"><i class="fa fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="container">
+                    <h3>How To Buy on Facebook</h3>
+                    <p>
+                        I invite you to connect with me on <a href="https://www.facebook.com/virginia.garcia.370">facebook</a>, and see the plants that I frequently sell. I have a heavy Facebook Marketplace presence
+                        through the Austin area selling different plants throghout the year. I also sell plants through different Facebook groups for plants. If 
+                        you have any questions or are interested in any of my plants send me personal message through facebook.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="container">
+                    <!--<h3>Etsy</h3>-->
+                    <a href="https://www.instagram.com/virgicrazyplantlady/"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="container">
+                    <h3>How To Buy on Instagram</h3>
+                    <p>
+                        I invite you to follow my <a href="https://www.instagram.com/virgicrazyplantlady/">instagram</a> page, where you will see my endless collection of plants. I regularly post content on
+                        the plants that I attain and educate users of the different plants that are available and how to care for them. If you see anything you like send me a DM and I will send you payment 
+                        and shipping information.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+{% endblock %}

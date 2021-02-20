@@ -1,0 +1,59 @@
+body {
+    /*background-color: #f2e8cf;*/
+}
+
+.jumbotron {
+    background-image: url("../images/plants.jpg");
+    background-size: 100% 100%;
+    color: #ebf2fa;
+    height: 50vh;
+}
+
+.jumbotron .container{
+    align-content: center;
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Arimo', sans-serif;
+}
+
+.plants h2 {
+    text-align: center;
+    color: #05668d;
+    font-size: 3.5rem;
+    font-family: 'Arimo', sans-serif;
+}
+
+/*.plants .col-2{
+    border: red solid;
+}*/
+
+article {
+    border: solid #6c6061;
+    border-radius: 12px;
+    background-color: white;
+    margin-bottom: 8px;
+}
+
+.col-10{
+    border: blue dashed;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+#plantcategory {
+    font-size: 2rem;
+    line-height: 1.8;
+    color: #313638;
+    font-family: 'Arimo', sans-serif;
+}
+
+#plantdescription{
+    line-height: 1.5;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img-fluid {
+    height: 200px;
+    width: 250px;
+}

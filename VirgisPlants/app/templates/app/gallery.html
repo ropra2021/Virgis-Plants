@@ -1,0 +1,36 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="../../static/app/content/gallery.css" />
+
+<div class="container body-content">
+
+    <h2>{{ title }}</h2>
+    <h3>{{ message }}</h3>
+
+    <div class="gallery">
+        <!--Column 1-->
+        <img src="../../static/app/images/gallery1.jpg" />
+        <img src="../../static/app/images/gallery2.jpg" />
+        <img src="../../static/app/images/gallery3.jpg" />
+
+        <!--Column 2-->
+        <img src="../../static/app/images/gallery4.jpg" />
+        <img src="../../static/app/images/gallery5.jpeg" />
+        <img src="../../static/app/images/gallery6.jpg" />
+
+        <!--Column 3-->
+        <img src="../../static/app/images/gallery7.jpg" />
+        <img src="../../static/app/images/gallery8.jpeg" />
+        <img src="../../static/app/images/gallery9.jpg" />
+    </div>
+</div>
+
+
+
+
+
+
+{% endblock %}

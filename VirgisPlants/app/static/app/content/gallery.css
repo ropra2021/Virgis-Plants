@@ -1,0 +1,20 @@
+body {
+    background-color: #f2e8cf;
+}
+
+h2 {
+    text-align: center;
+    color: #386641;
+}
+
+h3 {
+    text-align: center;
+    color: #386641;
+}
+
+img {
+    min-height: 30%;
+    max-width: 30%;
+    float: left;
+    margin: 1.66%;
+}

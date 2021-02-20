@@ -1,0 +1,47 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'app/content/contact.css' %}" />
+
+<head>
+    <meta charset="utf-8" />
+    <title>Contact Us</title>
+</head>
+
+<div class="jumbotron">
+    <div class="container-fluid">
+        <h2>{{ title }}</h2>
+        <h3>{{ message }}</h3>
+    </div>
+</div>
+
+<div class="container body-content">
+    <div class="container">
+        <div class="row">
+            <div class="col" id="column1">
+                <form action="https://formspree.io/mlepajoa" method="POST" >
+                    <h3>Send Us A Message</h3>
+                    <input name="firstname" id="firstname" placeholder="First Name" required="" type="text" size="10" /><br />
+                    <input name="lastname" id="lastname" placeholder="Last Name" required="" type="text" size="10" /><br />
+                    <input name="phonenumber" id="phonenumber" placeholder="Phone Number" required="" type="text" size="10" /><br />
+                    <input name="email" id="email" placeholder="E-mail" required="" type="text" size="10" /><br />
+                    <textarea name="message" id="message" placeholder="Message" required="" type="text" style="height: 200px;" ></textarea><br />
+                    <input type="submit" value="Submit" />
+                </form>
+            </div>
+                <div class="col" id="column2">
+                    <h2>Contact Information</h2>
+                    <div class="contactinfo">
+                            <i class="fa fa-user" id="icons1"></i><p2> Virginia Garcia</p2><br />
+                            <i class="fa fa-phone" id="icons1"></i><p2> (512)965-9465</p2><br />
+                            <i class="fa fa-envelope" id="icons1"></i><p2> virginiagarcia512@icloud.com</p2><br />
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+
+{% endblock %}

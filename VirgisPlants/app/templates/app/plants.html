@@ -1,0 +1,222 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+{% load static %}
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="{% static 'app/content/plants.css' %}" />
+
+<head>
+    <meta charset="utf-8" />
+    <title>Plants</title>
+</head>
+
+<div class="jumbotron">
+    <div class="container">
+        <h2>{{ title }}</h2>
+        <h3>{{ message }}</h3>
+    </div>
+</div>
+
+<div class="container body-content">
+    <div class="plants">
+        <article>
+            <h2>Chinese Money Plant</h2>   
+            <div class="row justify-content-center">
+                    <div class="col-2" id="columnmid">
+                        <img src="../../static/app/images/cmp1.jfif" class="img-fluid"/>
+                    </div>
+                    <div class="col-2" id="columnmid">
+                        <img src="../../static/app/images/cmp2.jpg" class="img-fluid" />
+                    </div>
+                    <div class="col-2" id="columnmid">
+                        <img src="../../static/app/images/cmp3.jpg" class="img-fluid" />
+                    </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <p id="plantcategory">
+                        <strong>Scientific Name: </strong>Pilea peperomioides<br />
+                        <strong>Plant Type: </strong>Perennial  
+                    </p>
+                    <hr />
+                    <p id="plantdescription">
+                        fguilhearvbke abfo byaehv hyaeolifvuhp24q3fyobvihelasliue weqbo 3qr72o9pr24fgwyavilhsgfvkuw kjsabsa.fvjdfnv.asvk.dfbkfbjbhvlsjvhsldvabfsjv.bdshxnc bhfa.sbjfsdvj.c bhsbhvbdsbvhbsdvsadbhv:LV, lmnbawpkbvuheirjwksdnlj.b juav/jri3qo'jvsdnabr'fojvskajldsfsjfjk;lfjfvbhhwwortuvvbsContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32
+                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <h2>Calathea Zebra Plant</h2>
+            <div class="row justify-content-center">
+                    <div class="col-2" id="columnmid">
+                        <img src="../../static/app/images/czh1.jpg" class="img-fluid"/>
+                    </div>
+                    <div class="col-2" id="columnmid">
+                        <img src="../../static/app/images/czh2.jpg" class="img-fluid" />
+                    </div>
+                    <div class="col-2" id="columnmid">
+                        <img src="../../static/app/images/czh3.jpg" class="img-fluid" />
+                    </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <p id="plantcategory">
+                        <strong>Scientific Name: </strong>Calathea Zebrina<br />
+                        <strong>Plant Type: </strong>Shrub 
+                    </p>
+                    <hr />
+                    <p id="plantdescription">
+                        fguilhearvbke abfo byaehv hyaeolifvuhp24q3fyobvihelasliue weqbo 3qr72o9pr24fgwyavilhsgfvkuw kjsabsa.fvjdfnv.asvk.dfbkfbjbhvlsjvhsldvabfsjv.bdshxnc bhfa.sbjfsdvj.c bhsbhvbdsbvhbsdvsadbhv:LV, lmnbawpkbvuheirjwksdnlj.b juav/jri3qo'jvsdnabr'fojvskajldsfsjfjk;lfjfvbhhwwortuvvbsContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32
+                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <h2>Lemon Lime Maranta</h2>
+            <div class="row justify-content-center">
+                    <div class="col-2" id="columnmid">
+                        <img src="../../static/app/images/llm1.jfif" class="img-fluid"/>
+                    </div>
+                    <div class="col-2" id="columnmid">
+                        <img src="../../static/app/images/llm2.jpg" class="img-fluid" />
+                    </div>
+                    <div class="col-2" id="columnmid">
+                        <img src="../../static/app/images/llm3.jpg" class="img-fluid" />
+                    </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <p id="plantcategory">
+                        <strong>Scientific Name: </strong>Teucrium viscidum 'Lemon Lime' <br />
+                        <strong>Plant Type: </strong>Perennial, Groundcover  
+                    </p>
+                    <hr />
+                    <p id="plantdescription">
+                        fguilhearvbke abfo byaehv hyaeolifvuhp24q3fyobvihelasliue weqbo 3qr72o9pr24fgwyavilhsgfvkuw kjsabsa.fvjdfnv.asvk.dfbkfbjbhvlsjvhsldvabfsjv.bdshxnc bhfa.sbjfsdvj.c bhsbhvbdsbvhbsdvsadbhv:LV, lmnbawpkbvuheirjwksdnlj.b juav/jri3qo'jvsdnabr'fojvskajldsfsjfjk;lfjfvbhhwwortuvvbsContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32
+                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <h2>Dracaena Houseplant</h2>
+            <div class="row justify-content-center">
+                    <div class="col-2" id="columnmid">
+                        <img src="../../static/app/images/dh1.jpg" class="img-fluid"/>
+                    </div>
+                    <div class="col-2" id="columnmid">
+                        <img src="../../static/app/images/dh2.jpg" class="img-fluid" />
+                    </div>
+                    <div class="col-2" id="columnmid">
+                        <img src="../../static/app/images/dh3.jpg" class="img-fluid" />
+                    </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <p id="plantcategory">
+                        <strong>Scientific Name: </strong>Dracaena<br />
+                        <strong>Plant Type: </strong>Shrub 
+                    </p>
+                    <hr />
+                    <p id="plantdescription">
+                        fguilhearvbke abfo byaehv hyaeolifvuhp24q3fyobvihelasliue weqbo 3qr72o9pr24fgwyavilhsgfvkuw kjsabsa.fvjdfnv.asvk.dfbkfbjbhvlsjvhsldvabfsjv.bdshxnc bhfa.sbjfsdvj.c bhsbhvbdsbvhbsdvsadbhv:LV, lmnbawpkbvuheirjwksdnlj.b juav/jri3qo'jvsdnabr'fojvskajldsfsjfjk;lfjfvbhhwwortuvvbsContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32
+                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <h2>Philodendron Birkin</h2>
+            <div class="row justify-content-center">
+                    <div class="col-2" id="columnmid">
+                        <img src="../../static/app/images/pb1.jfif" class="img-fluid"/>
+                    </div>
+                    <div class="col-2" id="columnmid">
+                        <img src="../../static/app/images/pb2.jfif" class="img-fluid" />
+                    </div>
+                    <div class="col-2" id="columnmid">
+                        <img src="../../static/app/images/pb3.jfif" class="img-fluid" />
+                    </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <p id="plantcategory">
+                        <strong>Scientific Name: </strong>Philodendron 'Birkin'<br />
+                        <strong>Plant Type: </strong>Perennial, Aroid
+                    </p>
+                    <hr />
+                    <p id="plantdescription">
+                        fguilhearvbke abfo byaehv hyaeolifvuhp24q3fyobvihelasliue weqbo 3qr72o9pr24fgwyavilhsgfvkuw kjsabsa.fvjdfnv.asvk.dfbkfbjbhvlsjvhsldvabfsjv.bdshxnc bhfa.sbjfsdvj.c bhsbhvbdsbvhbsdvsadbhv:LV, lmnbawpkbvuheirjwksdnlj.b juav/jri3qo'jvsdnabr'fojvskajldsfsjfjk;lfjfvbhhwwortuvvbsContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32
+                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <h2>Silver Ann</h2>
+            <div class="row justify-content-center">
+                    <div class="col-2" id="columnmid">
+                        <img src="../../static/app/images/sa1.jfif" class="img-fluid"/>
+                    </div>
+                    <div class="col-2" id="columnmid">
+                        <img src="../../static/app/images/sa2.jfif" class="img-fluid" />
+                    </div>
+                    <div class="col-2" id="columnmid">
+                        <img src="../../static/app/images/sa3.jpg" class="img-fluid" />
+                    </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <p id="plantcategory">
+                        <strong>Scientific Name: </strong>Glandularia 'Silver Anne'<br />
+                        <strong>Plant Type: </strong>Perennial, Annual/Biennial                    
+                    </p>
+                    <hr />
+                    <p id="plantdescription">
+                        fguilhearvbke abfo byaehv hyaeolifvuhp24q3fyobvihelasliue weqbo 3qr72o9pr24fgwyavilhsgfvkuw kjsabsa.fvjdfnv.asvk.dfbkfbjbhvlsjvhsldvabfsjv.bdshxnc bhfa.sbjfsdvj.c bhsbhvbdsbvhbsdvsadbhv:LV, lmnbawpkbvuheirjwksdnlj.b juav/jri3qo'jvsdnabr'fojvskajldsfsjfjk;lfjfvbhhwwortuvvbsContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32
+                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <h2>Black Magic Elephant Ear</h2>
+            <div class="row justify-content-center">
+                    <div class="col-2" id="columnmid">
+                        <img src="../../static/app/images/ci1.jfif" class="img-fluid"/>
+                    </div>
+                    <div class="col-2" id="columnmid">
+                        <img src="../../static/app/images/ci2.jfif" class="img-fluid" />
+                    </div>
+                    <div class="col-2" id="columnmid">
+                        <img src="../../static/app/images/ci3.jfif" class="img-fluid" />
+                    </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <p id="plantcategory">
+                        <strong>Scientific Name: </strong>Colocasia Illustris <br />
+                        <strong>Plant Type: </strong>Perennial, Bulb/Corm/Tuber, Aquatic, Aroid 
+                    </p>
+                    <hr />
+                    <p id="plantdescription">
+                        fguilhearvbke abfo byaehv hyaeolifvuhp24q3fyobvihelasliue weqbo 3qr72o9pr24fgwyavilhsgfvkuw kjsabsa.fvjdfnv.asvk.dfbkfbjbhvlsjvhsldvabfsjv.bdshxnc bhfa.sbjfsdvj.c bhsbhvbdsbvhbsdvsadbhv:LV, lmnbawpkbvuheirjwksdnlj.b juav/jri3qo'jvsdnabr'fojvskajldsfsjfjk;lfjfvbhhwwortuvvbsContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32
+                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham
+                    </p>
+                </div>
+            </div>
+        </article>
+    </div>
+</div>
+
+{% endblock %}

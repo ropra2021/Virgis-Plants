@@ -1,0 +1,79 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'app/content/about.css' %}" />
+
+<head>
+    <meta charset="utf-8" />
+    <title>About Us</title>
+</head>
+
+    <div class="jumbotron">
+        <div class="container-fluid">
+            <h2>{{title}}</h2>
+        </div>
+    </div>
+
+    <div class="container body-content">
+        <article class="article-1">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="../../static/app/images/about1.jpg" />
+                </div>
+                <div class="col-md-9">
+                    <h2>History of Virgis Plants</h2>
+                    <p class="p1">
+                    Starting late 2019, Virginia started buying and growing rare plants she purchased online. After the plants were grown she would sell them through 
+                    different online channels, such as Etsy and Facebook Marketplace. In the summer of 2020 Virginia started travelling to plant nurseries in Texas, California,
+                    and Mexico, where she purchased rare houseplants. As a result she had an extensive inventory of over 200 houseplants. Throughout the rest of 2020 she continued to 
+                    acquire, propogate and sell houseplants. As of 2021, she has continued to grow virgisplants, with plans of gaining an international presence in the plant community. In 
+                    the first year of operations Virginia has grown a following within the state of Texas due to the high quality plants that she provides her clients. The future is bright 
+                    for vigisplants due to the heart Virginia puts into growing her plants. Due to her understanding of the biology behind each of the plant species she handles, she is 
+                    able to nurture plants the right way. This results into a beautiful plant that will add a natural beauty to your home for years to come. 
+                    </p>
+                </div>
+              </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="p2">
+                    As part of Virginias mission to provide her costumers with the rarest plants in the world she continously imports plants from Indonesia, Thailand, New Zeland, Europe, and
+                    Brazil.
+                    </p>
+                </div>
+            </div>
+        <section>
+            <div class="jumbotron">
+            </div>
+        </section>
+            <div class="row">
+                <div class="col-md-8">
+                    <h2>About Virginia</h2>
+                    <p class="p1">
+                    Virginia has always loved outdoor activities such as hiking, riding horses and running becuase she enjoys to be conneceted with nature. 
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="../../static/app/images/about2.jpg" />
+                </div>
+              </div>
+        </article>
+
+        <!--<article class="article-2">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2>About Virginia</h2>
+                    <p class="p1">
+                    Virginia has always loved outdoor activities such as hiking, riding horses and running becuase she enjoys to be conneceted with nature. 
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="../../static/app/images/about2.jpg" />
+                </div>
+              </div>
+        </article>-->
+        
+    </div>
+
+{% endblock %}
